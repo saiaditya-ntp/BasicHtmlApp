@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(120deg, #007bff, #d0314c);
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.loginContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 29vw;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin: 8px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
